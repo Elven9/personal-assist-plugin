@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.0](https://github.com/Elven9/personal-assist-plugin/compare/v1.0.0...v1.1.0) (2026-06-03)
+
+
+### Features
+
+* add marketplace.json to enable claude plugin marketplace install ([262134f](https://github.com/Elven9/personal-assist-plugin/commit/262134f40f15b3e216b205a088ace3e1e20b5b8e))
+
 ## 1.0.0 (2026-06-03)
 
 
