@@ -1,0 +1,6 @@
+{
+  "name": "personal-assist-plugin",
+  "version": "0.0.0",
+  "description": "Personal productivity hooks and skills for Claude Code.",
+  "dependencies": []
+}
