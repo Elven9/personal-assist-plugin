@@ -1,3 +1,4 @@
 {
-  ".": "1.1.0"
+  "plugins/prompt-logger": "1.0.0",
+  "plugins/improve-english": "1.0.0"
 }

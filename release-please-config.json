@@ -1,8 +1,20 @@
 {
   "$schema": "https://raw.githubusercontent.com/googleapis/release-please/main/schemas/config.json",
-  "release-type": "simple",
   "packages": {
-    ".": {
+    "plugins/prompt-logger": {
+      "changelog-path": "CHANGELOG.md",
+      "release-type": "simple",
+      "draft": false,
+      "prerelease": false,
+      "extra-files": [
+        {
+          "type": "json",
+          "path": ".claude-plugin/plugin.json",
+          "jsonpath": "$.version"
+        }
+      ]
+    },
+    "plugins/improve-english": {
       "changelog-path": "CHANGELOG.md",
       "release-type": "simple",
       "draft": false,

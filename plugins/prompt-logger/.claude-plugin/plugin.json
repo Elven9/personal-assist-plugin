@@ -1,0 +1,6 @@
+{
+  "name": "prompt-logger",
+  "version": "1.0.0",
+  "description": "Logs all user prompts to local files for review.",
+  "dependencies": []
+}

@@ -1,24 +1,30 @@
 {
   "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "personal-assist-plugin",
-  "description": "Personal productivity hooks and skills for Claude Code.",
+  "description": "Personal productivity plugins for Claude Code.",
   "owner": {
     "name": "Elven Lin",
     "email": "elvenlin1998@gmail.com"
   },
   "plugins": [
     {
-      "name": "personal-assist-plugin",
-      "description": "Personal productivity hooks and skills for Claude Code.",
+      "name": "prompt-logger",
+      "description": "Logs all user prompts to local files for review.",
       "author": {
         "name": "Elven Lin"
       },
       "category": "productivity",
-      "source": {
-        "source": "url",
-        "url": "https://github.com/Elven9/personal-assist-plugin.git",
-        "ref": "main"
+      "source": "./plugins/prompt-logger",
+      "homepage": "https://github.com/Elven9/personal-assist-plugin"
+    },
+    {
+      "name": "improve-english",
+      "description": "Skills to improve English writing proficiency.",
+      "author": {
+        "name": "Elven Lin"
       },
+      "category": "productivity",
+      "source": "./plugins/improve-english",
       "homepage": "https://github.com/Elven9/personal-assist-plugin"
     }
   ]
