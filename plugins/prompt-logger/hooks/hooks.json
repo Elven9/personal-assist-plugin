@@ -6,7 +6,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "python3 -c \"import json,sys,pathlib; d=json.load(sys.stdin); p=pathlib.Path.home()/'.personal-assist-plugin'; p.mkdir(exist_ok=True); (p/f\"{d['session_id']}.txt\").open('a').write(d['prompt']+'\\n')\""
+            "command": "python3 -c \"import json,sys,pathlib; d=json.load(sys.stdin); p=pathlib.Path.home()/'.personal-assist-plugin'; p.mkdir(exist_ok=True); (p/(d['session_id']+'.txt')).open('a').write(d['prompt']+'\\n')\""
           }
         ]
       }
