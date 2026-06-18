@@ -26,6 +26,16 @@
       "category": "productivity",
       "source": "./plugins/improve-english",
       "homepage": "https://github.com/Elven9/personal-assist-plugin"
+    },
+    {
+      "name": "daily-matters",
+      "description": "Helps manage and track daily tasks and matters.",
+      "author": {
+        "name": "Elven Lin"
+      },
+      "category": "productivity",
+      "source": "./plugins/daily-matters",
+      "homepage": "https://github.com/Elven9/personal-assist-plugin"
     }
   ]
 }
