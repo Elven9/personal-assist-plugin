@@ -4,6 +4,8 @@
   "include-component-in-tag": true,
   "packages": {
     "plugins/prompt-logger": {
+      "package-name": "prompt-logger",
+      "component": "prompt-logger",
       "changelog-path": "CHANGELOG.md",
       "release-type": "simple",
       "draft": false,
@@ -17,6 +19,8 @@
       ]
     },
     "plugins/improve-english": {
+      "package-name": "improve-english",
+      "component": "improve-english",
       "changelog-path": "CHANGELOG.md",
       "release-type": "simple",
       "draft": false,
@@ -30,6 +34,8 @@
       ]
     },
     "plugins/daily-matters": {
+      "package-name": "daily-matters",
+      "component": "daily-matters",
       "changelog-path": "CHANGELOG.md",
       "release-type": "simple",
       "draft": false,
