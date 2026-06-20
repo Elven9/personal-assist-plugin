@@ -1,5 +1,5 @@
 {
   "plugins/prompt-logger": "0.0.0",
   "plugins/improve-english": "0.0.0",
-  "plugins/daily-matters": "0.0.0"
+  "plugins/daily-matters": "1.0.0"
 }
