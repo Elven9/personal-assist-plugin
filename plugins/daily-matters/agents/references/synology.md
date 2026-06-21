@@ -27,6 +27,15 @@ Resolve each channel name to its `channel_id` at runtime with
   back-and-forth between the three roles. For spec/feature or bug intents, check
   here first.
 
+  **Exclude the build bots by default.** Automated "Build" users post CI
+  build-status notifications (`🔁 ... currently being built ...`, `✅ APM build
+  result: ... [SUCCESS]`) that dominate this channel's volume — in a recent scan
+  they were ~80% of all messages and carry no human signal. Resolve their
+  `user_id`s at runtime with `glaive chat participants <channel_id>` (match
+  nicknames containing "Build" — e.g. `Build`, `ABDE Build`) and pass them to
+  `glaive chat messages --exclude_users <ids>`. Only include their messages when
+  the intent explicitly asks about builds or build status.
+
 <!-- TODO(user): more Synology sources — additional ChatPlus channels, internal
 wikis/docs, dashboards, repos. One line each on what it's good for. -->
 
@@ -56,4 +65,8 @@ _None recorded yet — see the TODO above._
 <!-- TODO(user): pure noise — bot/automation posts, off-topic chatter,
 duplicates, items already handled. -->
 
-_None recorded yet — see the TODO above._
+- **`APM_QA_RD` build-bot posts.** Messages from the automated "Build" users
+  (nicknames containing "Build", e.g. `Build` / `ABDE Build`) — CI build-status
+  notifications. Drop entirely unless the intent explicitly concerns builds or
+  build status. See the source note above for how to filter them with
+  `glaive chat messages --exclude_users`.
