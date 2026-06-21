@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.1](https://github.com/Elven9/personal-assist-plugin/compare/daily-matters-v1.1.0...daily-matters-v1.1.1) (2026-06-21)
+
+
+### Bug Fixes
+
+* **daily-matters:** exclude build bots from QA_RD by default ([b23df5b](https://github.com/Elven9/personal-assist-plugin/commit/b23df5bb3063994f2e2b56b8f2ffbeb153f74823))
+
 ## [1.1.0](https://github.com/Elven9/personal-assist-plugin/compare/daily-matters-v1.0.0...daily-matters-v1.1.0) (2026-06-21)
 
 
