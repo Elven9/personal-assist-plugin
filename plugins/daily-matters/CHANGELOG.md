@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.0](https://github.com/Elven9/personal-assist-plugin/compare/daily-matters-v1.0.0...daily-matters-v1.1.0) (2026-06-21)
+
+
+### Features
+
+* **daily-matters:** add scout research-and-curation subagent ([7e7d451](https://github.com/Elven9/personal-assist-plugin/commit/7e7d45100ff7a2c5557b70cfc067daa74ecc9fa0))
+
 ## 1.0.0 (2026-06-20)
 
 
