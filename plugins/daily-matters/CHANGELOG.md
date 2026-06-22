@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.2](https://github.com/Elven9/personal-assist-plugin/compare/daily-matters-v1.1.1...daily-matters-v1.1.2) (2026-06-22)
+
+
+### Bug Fixes
+
+* **daily-matters:** remove leftover synoday.py script section from catalyst skill ([c53a184](https://github.com/Elven9/personal-assist-plugin/commit/c53a1849dcddff06acbe39b5964a4a340d877ca5))
+
 ## [1.1.1](https://github.com/Elven9/personal-assist-plugin/compare/daily-matters-v1.1.0...daily-matters-v1.1.1) (2026-06-21)
 
 
