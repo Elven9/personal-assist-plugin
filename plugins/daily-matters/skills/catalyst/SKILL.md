@@ -105,26 +105,6 @@ workflow exactly, build a flow from the available task pieces in
 same propose → approve → execute loop. When a useful new combination emerges,
 offer to save it as a new workflow file so it's reusable next time.
 
-## Scripts
-
-Deterministic, repetitive, or token-heavy task pieces live in `scripts/` rather
-than being reimplemented by the agent each run. The main entry point is
-`synoday.py` — a stdlib-only CLI that emits JSON on stdout, so you can parse its
-output without reading the script into context.
-
-Invoke it via the plugin root so the path resolves wherever the plugin is
-installed:
-
-```bash
-python3 "${CLAUDE_PLUGIN_ROOT}/skills/catalyst/scripts/synoday.py" <command>
-```
-
-Run `synoday.py --help` to list available commands. Each command maps to a task
-piece; a task file in `references/tasks/` that's backed by a script should point
-at the relevant command. If a command exits non-zero it returns
-`{"ok": false, "error": ...}` — surface the error to the user rather than
-guessing.
-
 ## Catalog
 
 The catalog below is the index of what's available. Keep it in sync as tasks and
